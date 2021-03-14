@@ -1,0 +1,391 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/* start */
+
+body {
+  border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.open, .back {
+  display: none;
+  cursor: pointer;
+}
+
+.back {
+  background: rgba(0, 0, 0, 0.493);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: -2000px;
+
+
+}
+
+.close {
+  font-size: 50px;
+  cursor: pointer;
+  padding: 0 10px 0 0;
+}
+
+input {
+  position: absolute;
+  top: -500px;
+}
+
+label {
+  width: 50px;
+}
+aside {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  display: block;
+  display: flex;
+  position: absolute;
+  right: -2000px;
+  position: fixed;
+  transition: 0.3s;
+
+}
+
+.aside {
+  margin: 0 0 0 auto;
+}
+aside li{
+  font-size: 20px;
+  margin: 50px 100px;
+  color: white;
+
+}
+
+aside li:hover {
+  text-decoration: underline;
+}
+
+aside a {
+  color: white;
+}
+
+.close {
+  margin: 0 0 0 auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+header {
+  width: 100%;
+  height: 978px;
+  background-image: url(https://danblog.tokyo/img/main.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+
+}
+.container {
+  width: 100%;
+  max-width: 1100px; 
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  max-width: 1100px; 
+  margin: 0 auto;
+}
+
+.header-wrapper img {
+  width: 150px;
+  margin-top: 35px;
+}
+
+.header-menu {
+  margin: 0 0 0 auto;
+  padding-top: 50px;
+}
+.header-menu ul {
+  display: flex;
+}
+
+.header-menu a {
+  font-size: 18px;
+  margin: 0 25px;
+}
+
+header  p {
+  font-size: 48px;
+  font-weight: normal;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 400px 0;
+}
+
+.container{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.container h2 {
+  font-size: 38px;
+  font-weight: normal;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  
+}
+
+.info-box {
+  margin: 50px 200px;
+}
+.info-item {
+  padding: 25px 0;
+  border-bottom: 1px solid black;
+}
+.info {
+  display: flex;
+  font-size: 18px;
+}
+
+.info-date  {
+  padding-right: 40px;
+}
+
+.info-date span {
+  font-size: 13px;
+  margin-left: 30px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.case-items {
+  padding-top: 90px;
+  display: flex;
+}
+
+.case {
+  width: 50%;
+  text-align: center;
+ 
+}
+
+.case-heading {
+  width: 80%;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.case h3 {
+  font-size: 24px; 
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+
+.case p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+
+.case-info  {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s;
+}
+
+.case-info:hover {
+  opacity: 0.6;
+}
+
+
+
+.case-wrapper h4 {
+  text-align: center;
+  margin: 70px 0 50px;
+  height: 50px;
+}
+
+.case-wrapper h4 a{
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.bottom-menu {
+  background: black;
+}
+.menu-imgs {
+  display:flex;
+  margin-top: 100px;
+}
+
+.menu-imgs img {
+  width: 100%;
+}
+
+.bottom-menu-textarea {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  max-width: 1100px; 
+  margin: 0 auto;
+
+
+}
+
+.bottom-menu-textarea img {
+  width: 100px;
+  margin-top: 30px;
+  
+}
+
+
+
+.bottom-menu-text {
+  margin: 0 0 0 auto;
+}
+
+
+.bottom-menu-text ul {
+  display: flex;
+  padding-top: 30px;
+
+}
+.bottom-menu-text a {
+  font-size: 18px;
+  margin: 0 25px;
+  color: white;
+}
+
+footer p{
+  margin-top: 30px;  
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
